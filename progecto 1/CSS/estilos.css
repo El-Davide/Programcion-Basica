@@ -1,0 +1,12 @@
+
+header{
+    display: grid;
+    height:600px;
+    width: 100%;
+    justify-content: space-around;
+    background-image:url("../imagenes/seccion1.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+   
+}
+
