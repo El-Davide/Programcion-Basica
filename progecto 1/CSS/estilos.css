@@ -3,7 +3,6 @@ header{
     display: grid;
     height:600px;
     width: 100%;
-    justify-content: space-around;
     background-image:url("../imagenes/seccion1.png");
     background-repeat:no-repeat;
     background-size: cover;
@@ -12,6 +11,15 @@ header{
 
 .titulo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: beige;
-    
+    color: beige;   
+
+}
+
+.rubik-uniquifier {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size:100px;
+  color: azure;
 }
