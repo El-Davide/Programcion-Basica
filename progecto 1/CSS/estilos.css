@@ -1,25 +1,52 @@
 
-header{
-    display: grid;
-    height:600px;
-    width: 100%;
-    background-image:url("../imagenes/seccion1.png");
-    background-repeat:no-repeat;
-    background-size: cover;
-   
+body{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
-.titulo{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: beige;   
-
+header {
+  background-color: rgb(0, 0, 0);
+  color:beige;
+  padding: 20px 0;
+  text-align: center;
 }
 
-.rubik-uniquifier {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-size:100px;
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
   color: azure;
+  text-decoration: none;
+}
+
+#about {
+  padding: 20px;
+  background: rgb(160, 157, 157);
+}
+#about h2 {
+  margin-top: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content:center;
+}
+
+.project {
+  width: 400px;
+  padding: 10px;
+  background: beige;
+  border: 1px solid rgb(24, 22, 22);
+  text-align: center;
 }

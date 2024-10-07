@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../progecto 1/CSS/estilos.css">
+    <title>Mi portafolio</title>
+</head>
+<header>
+    <h1>Mi Portafolio</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre Mi</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+<section id="about">
+    <h2>Sobre Mi</h2>
+    <p>Soy un desarrollador web apasionado con experiencia en la creación de sitios web funcionales y estéticamente atractivos. Tengo un sólido conocimiento de HTML, CSS y JavaScript, y disfruto resolviendo problemas complejos y aprendiendo nuevas tecnologías. Me destaco por mi capacidad para trabajar en equipo y comunicarme eficazmente con diferentes partes interesadas. Mi objetivo es seguir creciendo profesionalmente y contribuir a proyectos innovadores</p>
+</section>
+<body>
+    <section id="portafolio">
+    <h2>Portafolio</h2>
+    <div class="gallery">
+        <div class="project">
+        <img src="../progecto 1/imagenes/tarea.png" alt="Pensante" height="250px">
+        <h5>Proyecto: Web de Lista de Tareas</h5>
+        <p>Crea una aplicación web sencilla para gestionar tareas diarias. Permite agregar, editar, marcar como completadas y eliminar tareas, almacenándolas en el navegador con LocalStorage.</p>
+        </div>
+        <div class="project">
+        <img src="../progecto 1/imagenes/recetas.jpg" alt="segundo" height="250px">
+        <h5>Proyecto: Aplicación de Recetas</h5>
+        <p>Desarrolla una aplicación web para gestionar recetas de cocina. Permite agregar, editar, eliminar y buscar recetas, almacenándolas en el navegador con LocalStorage.</p>
+        </div>
+        <!--Más Proyectos aqui-->
+    </div>
+    </section>
+    <section id="contact">
+    <h2>Contactenos</h2>
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <p>
+               <label>Nombres:<input name="firstName" /></label>
+            </p>
+
+            <p>
+                <label>Apellidos:<input name="firstName" /></label>
+             </p>
+
+            <p>
+                Genero:
+                <label><input type="radio" name="Genero" value="Masculino"/>Masculino</label>
+                <label><input type="radio" name="Genero" value="femenino"/>Femenino</label>
+            </p>
+
+            <p>
+                Correo:
+                <label for="Correo"><input type="email"></label>
+            </p>
+
+            <p>
+                <button type="submit">Enviar</button>
+            </p>
+
+                    </select>
+                </label>
+            </p>
+        </fieldset>
+    </form>
+    </section>
+</body>
+</html>
