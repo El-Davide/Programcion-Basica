@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Programcion Basica/CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <title>Mi portafolio</title>
 </head>
 <header>
-    <h1>Mi Portafolio</h1>
+    <h1 class="anton-regular">Mi Portafolio</h1>
     <nav>
         <ul>
             <li><a href="#about">Sobre Mi</a></li>
@@ -25,12 +28,12 @@
     <h2>Portafolio</h2>
     <div class="gallery">
         <div class="project">
-        <img src="../Programcion Basica/imagenes/tarea.png" alt="Pensante" height="250px">
+        <img src="../imagenes/tarea.png" alt="Pensante" height="250px">
         <h5>Proyecto: Web de Lista de Tareas</h5>
         <p>Crea una aplicación web sencilla para gestionar tareas diarias. Permite agregar, editar, marcar como completadas y eliminar tareas, almacenándolas en el navegador con LocalStorage.</p>
         </div>
         <div class="project">
-        <img src="../Programcion Basica/imagenes/recetas.jpg" alt="segundo" height="250px">
+        <img src="../imagenes/recetas.jpg" alt="segundo" height="250px">
         <h5>Proyecto: Aplicación de Recetas</h5>
         <p>Desarrolla una aplicación web para gestionar recetas de cocina. Permite agregar, editar, eliminar y buscar recetas, almacenándolas en el navegador con LocalStorage.</p>
         </div>
@@ -42,30 +45,24 @@
     <form>
         <fieldset>
             <legend>Datos personales</legend>
-
             <p>
-               <label>Nombres:<input name="firstName" /></label>
+               <label>Nombres:<input name="firstName" /></label> 
             </p>
-
             <p>
                 <label>Apellidos:<input name="firstName" /></label>
              </p>
-
             <p>
                 Genero:
                 <label><input type="radio" name="Genero" value="Masculino"/>Masculino</label>
                 <label><input type="radio" name="Genero" value="femenino"/>Femenino</label>
             </p>
-
             <p>
                 Correo:
                 <label for="Correo"><input type="email"></label>
             </p>
-
             <p>
                 <button type="submit">Enviar</button>
             </p>
-
                     </select>
                 </label>
             </p>
